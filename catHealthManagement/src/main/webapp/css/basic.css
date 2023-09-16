@@ -1,0 +1,45 @@
+@charset "UTF-8";
+body {
+  background: #83edc1;
+  background: linear-gradient(to right, #83edc1, #a8eed0);
+}
+
+.btn-login {
+  font-size: 0.9rem;
+  letter-spacing: 0.05rem;
+  padding: 0.75rem 1rem;
+}
+
+.btn-google {
+  color: white !important;
+  background-color: #ea4335;
+}
+
+.btn-facebook {
+  color: white !important;
+  background-color: #90a9de;
+}
+
+
+
+.form-label {
+  font-weight: bold;
+  font-family: 'メイリオ';
+  color:#0f0f0f;
+}
+
+.form-select {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.btn-primary {
+  background-color: #4da1eb;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  cursor: pointer;
+}

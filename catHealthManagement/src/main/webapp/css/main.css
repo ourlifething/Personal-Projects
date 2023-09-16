@@ -1,0 +1,123 @@
+@charset "UTF-8";
+
+/* スマートフォンサイズ以下の画面幅に対するスタイル */
+@media screen and (max-width: 768px) {
+  table {
+    width: 100%; /* テーブルを画面幅に合わせて100%に設定 */
+    border-collapse: separate; /* セル間の隙間を開ける */
+  	border-spacing: 3px; /* セル間の隙間を10pxに設定 */
+  }
+
+  th, td {
+    /* セルの内部余白を調整 */
+    padding:5;
+    width: 200px; /* セルの幅を指定 */
+    height: 60px; /* セルの高さを指定 */
+    font-size: 8px; /* テキストサイズを調整 */
+    background:#fff;
+    text-align:left;
+    vertical-align: top; 
+  }
+}
+/* 768px以上の画面幅に対するスタイル */
+@media screen and (min-width: 769px) {
+  table {
+    width: 80%; /* テーブルを画面幅の80%に設定 */
+    border-collapse: separate; /* セル間の隙間を開ける */
+  	border-spacing: 6px; /* セル間の隙間を10pxに設定 */
+  }
+
+  th, td {
+    padding: 30px 25px; /* セルの内部余白を調整 */
+    background:#fff;
+    font-size:14px;
+    text-align:left;
+    vertical-align: top; 
+  }
+}
+
+body {
+  background: #83edc1;
+  background: linear-gradient(to right, #83edc1, #a8eed0);
+}
+
+.container {
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+ul{
+	list-style: none;
+}
+li {
+	display:inline-block;
+	margin-right:20px;
+}
+
+table {
+  border-collapse: separate; /* セル間の隙間を開く */
+   /* セル間の隙間を10pxに設定 */
+}
+
+
+.btn-login {
+  font-size: 0.9rem;
+  letter-spacing: 0.05rem;
+  padding: 0.75rem 1rem;
+}
+
+.btn-google {
+  color: white !important;
+  background-color: #ea4335;
+}
+
+.btn-facebook {
+  color: white !important;
+  background-color: #90a9de;
+}
+
+
+
+.form-label {
+  font-weight: bold;
+  font-family: 'メイリオ';
+  color:#0f0f0f;
+}
+
+.form-select {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.btn-primary {
+  background-color: #4da1eb;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.form-label {
+  font-weight: bold;
+  font-family: 'メイリオ';
+  color:#0f0f0f;
+}
+
+.form-select {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.btn-primary {
+  background-color: #4da1eb;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
