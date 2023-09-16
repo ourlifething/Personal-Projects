@@ -28,6 +28,8 @@ Pet Gugu & Chichi's Health Manager App
 **DAO（データアクセスオブジェクト）:**
 - CatHealthDao.java: DBへの接続方法を設定します。
 
+ログイン画面とメイン画面のデザインにおいて、Bootstrapを活用しました。
+
 Pet Gugu & Chichi's Health Manager App は、ペットの健康管理をサポートするためのアプリケーションです。このアプリケーションは、ペットの食事と体重をトラッキングし、健康的な生活を促進します。
 
 主な機能
