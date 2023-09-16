@@ -21,7 +21,7 @@ List<CatHealth> dataChichi = (List<CatHealth>)session.getAttribute("dataChichi")
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 <link rel="stylesheet" href="css/main.css">
-<title>ペット健康の集計結果</title>
+<title>Gugu and Chichi's Health Manager</title>
 </head>
 
 <body>
@@ -49,10 +49,10 @@ List<CatHealth> dataChichi = (List<CatHealth>)session.getAttribute("dataChichi")
     <%} %>
     </li>
     <%if (thisMonth != null){ %>
-    	<li><h2>CAT HEALTH --<%=thisMonth %>--</h2></li>
+    	<li><h2>Gugu and Chichi's Health Manager --<%=thisMonth %>--</h2></li>
     <% }else{ %>
     	<%int month = calender.getMonth(); %>
-    	<li><h2> CAT HEALTH --<%=month %>--</h2></li> <!-- 1 -->
+    	<li><h2> Gugu and Chichi's Health Manager --<%=month %>--</h2></li> <!-- 1 -->
     <%} %>
     <li>
     
