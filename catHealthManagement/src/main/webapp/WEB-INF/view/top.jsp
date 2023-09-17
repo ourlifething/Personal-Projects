@@ -4,6 +4,9 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bungee+Inline&family=Caveat+Brush&display=swap" rel="stylesheet">
 <title>top Cat Health Management</title>
  <style>
         /*ページ全体のスタイル */
@@ -26,16 +29,15 @@
 
         /* 画像のスタイル（中央配置のため） */
         img {  	
-        	width: 250px; /* 幅を指定（任意の幅に変更可能） */
+        	width: 200px; /* 幅を指定（任意の幅に変更可能） */
             height: auto; /* 高さは自動調整 */
             display: block;
             margin: 0 auto;
-            margin-top:20%;
+            margin-top:15%;
         }
         /* ボタンにカスタムスタイルを適用 */
-		/* ボタンにカスタムスタイルを適用 */
 		.btn {
-    		margin-top: 15%; /* 上部マージンを設定 */
+    		margin-top: 10%; /* 上部マージンを設定 */
     		background-color: orange; /* 背景色をオレンジに設定 */
     		color: white; /* テキスト色を白に設定 */
     		padding: 10px 20px; /* パディングを設定 */
@@ -49,18 +51,29 @@
 		.btn:hover {
    		 	background-color: darkorange; /* ホバー時の背景色を変更 */
 		}
-		
+		/* テキストに影をつけるスタイル */
+		.text-with-shadow {
+   			font-family: 'Bungee Inline', cursive; /* フォントファミリーを設定 */
+    		font-size: 36px; /* フォントサイズを設定 */
+    		color: darkorange; /* テキスト色を設定 */
+    		text-align: center; /* テキストを中央揃えにする */
+    		text-transform: uppercase; /* テキストを大文字に変換（任意） */
+    		text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* 影の設定 */
+		}
+	
         
     </style>
 </head>
 <body>
 	<div align="center" class="image-container">
-		<h2>Cat Health Management</h2>
+		<h1 class="text-with-shadow" style="font-family: 'Bungee Inline', cursive; color:white;">Cats Health Managements</h1>
+		
         <img src="/catHealthManagement/images/chichi_gugu.png">
    
 		<form action="Login" method="post">
     		<button type="submit" class="btn">Enter</button> 
     	</form>
+    	<small><p style="margin-top:50px;">Copyright 2023 Ourlifething®️ All Rights Reserved.</p></small>
     </div>
 </body>
 </html>
