@@ -7,6 +7,8 @@ Pet Gugu & Chichi's Health Manager App
 
 データベース: MySQL (XAMPP経由)
 
+/Controller/Login.javaより実行
+
 プロジェクトの構造
 このプロジェクトは、DAO（Data Access Object）パターンとMVC（Model-View-Controller）パターンを組み合わせて開発されました。以下は、プロジェクトの主要な構造要素です。
 
